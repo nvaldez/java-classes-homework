@@ -1,4 +1,3 @@
-import java.util.StringJoiner;
 
 public class Pet {
 	
@@ -32,6 +31,10 @@ public class Pet {
 		return this.type;
 	}
 	
+	public String getLocation() {
+		return this.location;
+	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -42,6 +45,10 @@ public class Pet {
 	
 	public void setLocation(String location) {
 		this.location = location;
+	}
+	
+	public void setType(String type) {
+		this.type = type;
 	}
 
 }
